@@ -38,6 +38,67 @@
     #hsl p {
         width: 80%;
     }
+    #btn-1 {
+        padding: 1vw 3vw;
+    }
+    #icon i {
+        font-size: var(--font-para);
+    }
+    #icon {
+        width: 5.3vw;
+        height: 5vw;
+    }
+    #dot {
+        width: 2vw;
+        height: 2vw;
+    }
+    #hsr {
+        width: 100%;
+        margin: 10vw 0 0 0;
+    }
+    #clr-box-hsr {
+        width: 75vw;
+        height: 75vw;
+    }
+    #round-box {
+        position: absolute;
+        top: 5vw;
+        right: 9vw;
+        width: 16vw;
+        height: 16vw;
+    }
+    .hs-box {
+        width: 8vw;
+        height: 8vw;
+    }
+    .hs-font-size {
+        font-size: 3vw;
+    }
+    #location-aero-top {
+        top: 15vw;
+        right: 68vw;
+    }
+    #text-top {
+        width: 25vw;
+        height: 5vw;
+    }
+    #hsr-img img {
+        width: 67vw;
+        bottom: 0vw;
+        right: 13vw;
+    }
+    #text-bottom {
+        width: 25vw;
+        height: 5vw;
+    }
+    #location-aero-bottom {
+        top: 45vw;
+        left: 65vw;
+    }
+    #sec-1 {
+        width: 100%;
+        margin: 10vw 0;
+    }
     
 
 

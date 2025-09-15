@@ -357,6 +357,7 @@ linear infinite;
 #text-bottom h4{
     color: var(--color-accent);
     font-weight: 500;
+    font-size: var(--font-para);
 }
 /* hero sec end */
 
