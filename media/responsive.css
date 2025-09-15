@@ -1,3 +1,30 @@
+:root{
+    /* colors */
+    --color-primary: #ff5314;
+    --color-secondary: #000;
+    --color-accent: #fff;
+    --color-text: #202529;
+    --color-m-white: #f7f9fa;
+
+    /* width pallete */
+    --container-full: 100%;
+    --container: 90vw;
+    --container-half: 50vw;
+
+    /* font pallete */
+    --font-mainhead: calc(1.8rem + 1vw);
+    --font-navbtn: calc(0.8rem + 0.3vw);
+    --font-sechead: calc(1.2rem + 0.7vw); 
+    --font-btnhead: calc(0.9rem + 0.6vw);  
+    --font-para: calc(0.6rem + 0.5vw);
+
+
+
+    
+}
+
+
+
 /* Mobile screen responsive 767px */
 @media screen and (max-width: 768px) {
     .header-center {
@@ -99,7 +126,9 @@
         width: 100%;
         margin: 10vw 0;
     }
-    
+    #sec-2-inner h3 {
+        font-size: var(--font-btnhead);
+    }
 
 
 
