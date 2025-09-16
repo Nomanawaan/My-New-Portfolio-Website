@@ -24,6 +24,33 @@
 }
 
 
+/* responsive screen size 320px */
+@media screen and (max-width: 320px) {
+    .card-1:hover .icon {
+        padding: 2vw 4.5vw !important;
+    }
+
+
+}
+
+
+
+/* responsive screen 375px */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .card-1:hover .icon {
+        padding: 2vw 4.2vw !important;
+    }
+}
+
+
+
+/* screen responsive 425px */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .card-1:hover .icon {
+        padding: 2vw 4vw !important;
+    }
+}
+
 
 /* Mobile screen responsive 767px */
 @media screen and (max-width: 768px) {
@@ -137,7 +164,7 @@
         height: 60vw;
     }
     .card-1:hover .icon {
-        padding: 1.2vw 2.2vw;
+        padding: 1.7vw 2vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -154,9 +181,42 @@
     .cardbtm-icon {
         width: 6vw;
     }
-
-
-
+    div#card-hdng h2 {
+        font-size: var(--font-btnhead);
+    }
+    .fa-solid, .fas {
+        font-size: var(--font-btnhead);
+    }
+    .card-1 {
+        padding: 5vw;
+    }
+    #card-num h2 {
+        font-size: var(--font-btnhead);
+    }
+    #sec-3-content {
+        flex-direction: column;
+    }
+    #sec-3-left {
+        width: 100%;
+        height: 68vw;
+    }
+    #sec3l-circle {
+        width: 80%;
+        height: 68vw;
+    }
+    #sec-3-right {
+        width: 100%;
+    }
+    #sec3l-circle img {
+        width: 56.5vw;
+    }
+    .wts {
+        width: 66vw;
+    }
+    #sec-3-right p {
+        font-size: var(--font-para);
+    }
+    
 
 
 
