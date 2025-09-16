@@ -450,6 +450,8 @@ linear infinite;
     /* background: red; */
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 5vw;
 }
 #sec-2-hdng{
     width:70%;
