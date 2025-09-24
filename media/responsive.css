@@ -111,7 +111,7 @@
         position: absolute;
         top: 5vw;
         right: 0;
-        width: 25%;
+        width: 30%;
         background: var(--color-m-white);
         display: none;
         flex-direction: column;
@@ -125,6 +125,9 @@
     }
     .hamburger {
         display: block; 
+    }
+    .header-center ul li a {
+        font-size: var(--font-para);
     }
     .header-center.active {
         display: flex; 
@@ -301,6 +304,9 @@
     .s5-box-2 {
         width: 44.5vw;
     }
+    .s5-box2-img {
+        border-radius: 15px;
+    }
     .s5-box-3 {
         width: 44.5vw;
     }
@@ -330,7 +336,7 @@
         margin-top: 7vw;
     }
     .fname, .lname {
-        width: 49.3%;
+        width: 100%;
     }
     .message {
         width: 100%;
@@ -383,7 +389,22 @@
     #footer-left p {
         font-size: var(--font-para);
     }
-
+    .cf-heading h2 {
+        font-size: var(--font-btnhead);
+    }
+    form input {
+        height: 7vw;
+        font-size: var(--font-para);
+    }
+    textarea {
+        font-size: var(--font-para);
+    }
+    #ftr-left h2 {
+        font-size: var(--font-sechead);
+    }
+    #ftr-right h2 {
+        font-size: var(--font-sechead);
+    }
 
 
 

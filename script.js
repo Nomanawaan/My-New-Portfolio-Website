@@ -1,18 +1,18 @@
 // js for header arrow
-const aerobtn = document.querySelector('.aero');
-const aeroicon = document.getElementById('aero-right');
+// const aerobtn = document.querySelector('.aero');
+// const aeroicon = document.getElementById('aero-right');
 
-aerobtn.addEventListener('mouseenter', () => {
-    aeroicon.style.transform = "rotate(90deg)";
-    aeroicon.style.transition = "transform 0.3s ease";
-});
+// aerobtn.addEventListener('mouseenter', () => {
+//     aeroicon.style.transform = "rotate(90deg)";
+//     aeroicon.style.transition = "transform 0.3s ease";
+// });
 
-aerobtn.addEventListener('mouseleave', () => {
-    aeroicon.style.transform = "rotate(45deg)";
-});
+// aerobtn.addEventListener('mouseleave', () => {
+//     aeroicon.style.transform = "rotate(45deg)";
+// });
 
 
-// js for hero sec right arrow
+// js for hero sec left arrow
 const icons = document.querySelectorAll('#icon');
 
 icons.forEach(iconBox => {
@@ -48,20 +48,20 @@ arrowIcons.forEach(icon => {
 
 
 // js for all buttons with class "ara-btn-aero"
-const arrowBoxes = document.querySelectorAll('.ara-btn-aero');
+// const arrowBoxes = document.querySelectorAll('.ara-btn-aero');
 
-arrowBoxes.forEach(box => {
-  const arrowIcon = box.querySelector('.ara-aero');
+// arrowBoxes.forEach(box => {
+//   const arrowIcon = box.querySelector('.ara-aero');
 
-  box.addEventListener('mouseenter', () => {
-    arrowIcon.style.transition = "transform 0.3s ease";
-    arrowIcon.style.transform = "rotate(45deg)";
-  });
+//   box.addEventListener('mouseenter', () => {
+//     arrowIcon.style.transition = "transform 0.3s ease";
+//     arrowIcon.style.transform = "rotate(45deg)";
+//   });
 
-  box.addEventListener('mouseleave', () => {
-    arrowIcon.style.transform = "rotate(0deg)";
-  });
-});
+//   box.addEventListener('mouseleave', () => {
+//     arrowIcon.style.transform = "rotate(0deg)";
+//   });
+// });
 
 // js for hamburger menu
 const hamburger = document.querySelector(".hamburger");
@@ -72,3 +72,18 @@ hamburger.addEventListener("click", () => {
 });
 
 
+
+
+// Select all arrows with class "ara-aero"
+let arrows = document.querySelectorAll(".ara-aero");
+
+arrows.forEach(function(arrow) {
+  arrow.addEventListener("mouseenter", function() {
+    icon.style.transition = "transform 0.3s ease";
+    arrow.style.transform = "rotate(45deg)";
+  });
+
+  arrow.addEventListener("mouseleave", function() {
+    arrow.style.transform = "rotate(0deg)";
+  });
+});
