@@ -773,6 +773,7 @@ p#card-para, .icon{
 .s5-box1-img{
     width: 100%;
     overflow: hidden;
+    border-radius: 15px;
 }
 .s5-box1-img img{
     width: 100%;
@@ -787,7 +788,7 @@ p#card-para, .icon{
     /* background: blue; */
     padding: 1vw 0;
     display: flex;
-
+    align-items: center;
 }
 #s5-box1-text{
     width: 90%;
